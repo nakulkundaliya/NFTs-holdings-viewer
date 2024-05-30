@@ -1,0 +1,59 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App form {
+  margin-bottom: 20px;
+}
+
+.App input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 250px;
+  max-width: 100%;
+}
+
+.App button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.App button:hover {
+  background-color: #0056b3;
+}
+
+.App .nft-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.App .nft-card {
+  max-width: 300px;
+}
+
+.App .error {
+  color: red;
+  margin-top: 10px;
+}
+
+.App .dropdown-div {
+  display: 'flex';
+  align-items: center;
+  justify-content: center;
+}
+
+.input-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
